@@ -3,11 +3,11 @@
 [Paper](https://arxiv.org/pdf/2410.17084)
 
 
-## The review comments for our paper can now be viewed on OpenReview. 
+!## The review comments for our paper can now be viewed on OpenReview. 
 
-## I would like to clarify that the dataset used in LiV-GS is NTU4DRadLM (NTU4DRadLM: 4D Radar-centric Multi-Modal Dataset for Localization and Mapping), whereas the dataset we used is NTU VIRAL (NTU VIRAL: A Visual-Inertial-Ranging-Lidar Dataset, From an Aerial Vehicle Viewpoint). 
+!## I would like to clarify that the dataset used in LiV-GS is NTU4DRadLM (NTU4DRadLM: 4D Radar-centric Multi-Modal Dataset for Localization and Mapping), whereas the dataset we used is NTU VIRAL (NTU VIRAL: A Visual-Inertial-Ranging-Lidar Dataset, From an Aerial Vehicle Viewpoint). 
 
-## I hope there will be fewer on similar topics who reject papers directly without careful verification.
+!## I hope there will be fewer on similar topics who reject papers directly without careful verification.
 
 
 ## Features
