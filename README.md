@@ -2,6 +2,7 @@
 
 [Paper](https://arxiv.org/pdf/2410.17084)
 
+[Video](https://www.bilibili.com/video/BV1JeSKYUEFp/?vd_source=0211af3bb655d5627b96e8718e3af59f)
 
 <!--  ## The review comments for our paper can now be viewed on OpenReview. 
 
