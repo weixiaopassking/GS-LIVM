@@ -2,13 +2,10 @@
 
 [Paper](https://arxiv.org/pdf/2410.17084)
 
-<!-- <iframe width="800" height="450"
-src="https://www.youtube.com/watch?v=bVkwWXFCbVsE" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe> -->
+<div align="center">
+<a href="https://www.youtube.com/watch?v=bVkwWXFCbVsE" target="_blank"><img src="./doc/demo.png" alt="video" width="60%" /></a>
+</div>
 
-<video controls height='100%' width='100%' src="doc/video.mp4"></video>
 
 ## Features
 
@@ -33,9 +30,9 @@ The system takes input from point cloud data collected by LiDAR, motion informat
 
 ## Images & Demo Video (2024-10-01 Update)
 
-<div align="center">
+<!-- <div align="center">
 <img src="./doc/demo.png" width=80.0% />
-</div>
+</div> -->
 
 
 <div align="center">
