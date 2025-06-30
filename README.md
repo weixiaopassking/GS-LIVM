@@ -2,6 +2,8 @@
 
 [Paper](https://arxiv.org/pdf/2410.17084)
 
+[Bilibili](https://www.bilibili.com/video/BV1JeSKYUEFp/?vd_source=0211af3bb655d5627b96e8718e3af59f)
+
 <div align="center">
 <a href="https://www.youtube.com/watch?v=bVkwWXFCbVsE" target="_blank"><img src="./doc/demo.png" alt="video" width="100%" /></a>
 </div>
