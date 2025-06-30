@@ -3,7 +3,7 @@
 [Paper](https://arxiv.org/pdf/2410.17084)
 
 <div align="center">
-<a href="https://www.youtube.com/watch?v=bVkwWXFCbVsE" target="_blank"><img src="./doc/demo.png" alt="video" width="60%" /></a>
+<a href="https://www.youtube.com/watch?v=bVkwWXFCbVsE" target="_blank"><img src="./doc/demo.png" alt="video" width="100%" /></a>
 </div>
 
 
