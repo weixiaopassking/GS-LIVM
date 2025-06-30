@@ -34,14 +34,11 @@ def get_gpu_memory_usage():
         return False
 
 def callback(data):
-    # 提取时间戳
     timestamp = data.header.stamp.secs + data.header.stamp.nsecs * 1e-9
     
-    # 提取位置和姿态
     position = data.pose.pose.position
     orientation = data.pose.pose.orientation
     
-    # 构造输出字符串
     output_str = "{:.6f} {:.6f} {:.6f} {:.6f} {:.6f} {:.6f} {:.6f} {:.6f}\n".format(
         timestamp, position.x, position.y, position.z,
         orientation.x, orientation.y, orientation.z, orientation.w
@@ -59,7 +56,6 @@ def callback(data):
             ))
 
 def mktree(pkg_path, save_path):
-    # 构建完整路径
     root_dir = osp.join(pkg_path, f"./output/{save_path}")
     print("root_dir: ", root_dir)
 
@@ -97,7 +93,7 @@ if __name__ == '__main__':
 
     # lvi sam
     # rospy.Subscriber("/odometry/imu", Odometry, callback)
-    # fast lio and gslivom
+    # fast lio and gslivm
     rospy.Subscriber("/Odometry", Odometry, callback)
     # r3live
     # rospy.Subscriber("/camera_odom", Odometry, callback)    

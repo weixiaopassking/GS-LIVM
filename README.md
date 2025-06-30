@@ -134,6 +134,12 @@ fi" >> ~/miniforge3/envs/{ENV_NAME}/setup.sh
 ```Bash
 # Noted: change the path in  line 40 of /home/xieys/catkin_ws/src/GS-LIVM/include/gs/gs/parameters.cuh
 std::filesystem::path output_path = "/home/xieys/catkin_ws/output";
+
+# for saving results
+mkdir /home/xieys/catkin_ws/output/training -p
+
+# for visualize
+mv ${ROOT}/doc/sparse /home/xieys/catkin_ws/output
 ```
 
 
@@ -150,28 +156,28 @@ If the image message type is **sensor_msgs/CompressedImage**, please type:
 
 ```bash
 # for compressed image sensor type
-roslaunch gslivom livo_r3live_compressed.launch
+roslaunch gslivm livo_r3live_compressed.launch
 ```
 
 If the image message type is **sensor_msgs/Image**, please type:
 
 ```bash
 # for original image sensor type
-roslaunch gslivom livo_r3live.launch
+roslaunch gslivm livo_r3live.launch
 ```
 
 
 ###  2). Run on [*NTU_VIRAL*](https://ntu-aris.github.io/ntu_viral_dataset/)
 
 ```bash
-roslaunch gslivom livo_ntu.launch
+roslaunch gslivm livo_ntu.launch
 ```
 
 ###  3). Run on [*FAST-LIVO*](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhengcr_connect_hku_hk/Esiqlmaql0dPreuOhiHlXl4Bqu5RRRIViK1EyuR4h1_n4w?e=fZdVn0)
 
 
 ```bash
-roslaunch gslivom livo_fastlivo.launch
+roslaunch gslivm livo_fastlivo.launch
 ```
 
 ###  4). Run on [*Botanic Garden Dataset*](https://github.com/robot-pesg/BotanicGarden)
@@ -180,10 +186,10 @@ Please go to the workspace of **GS-LIVM** and type:
 
 ```bash
 # for Velodyne VLP-16
-roslaunch gslivom livo_botanic_garden.launch
+roslaunch gslivm livo_botanic_garden.launch
 
 # for Livox-Avia
-roslaunch gslivom livo_botanic_garden_livox.launch
+roslaunch gslivm livo_botanic_garden_livox.launch
 ```
 
 ## 5.Visualization
