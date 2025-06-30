@@ -1,6 +1,12 @@
-# GS-LIVM: Real-Time Photo-Realistic LiDAR-Inertial-Visual Mapping with Gaussian Splatting  (include & src are coming soon!)
+# GS-LIVM: Real-Time Photo-Realistic LiDAR-Inertial-Visual Mapping with Gaussian Splatting
 
 [Paper](https://arxiv.org/pdf/2410.17084)
+
+<iframe width="800" height="450"
+src="https://www.youtube.com/watch?v=bVkwWXFCbVsE" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ## Features
 
