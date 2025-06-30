@@ -2,11 +2,11 @@
 
 [Paper](https://arxiv.org/pdf/2410.17084)
 
-<iframe width="800" height="450"
+<!-- <iframe width="800" height="450"
 src="https://www.youtube.com/watch?v=bVkwWXFCbVsE" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+allowfullscreen></iframe> -->
 
 ## Features
 
