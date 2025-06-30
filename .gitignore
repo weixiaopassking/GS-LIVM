@@ -3,6 +3,8 @@ output/*
 
 !.gitignore
 
+doc/video.mp4
+
 # python
 python/calc_det.py
 python/calc_extrinsic.py

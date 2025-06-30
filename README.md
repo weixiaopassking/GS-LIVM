@@ -8,6 +8,8 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe> -->
 
+<video controls height='100%' width='100%' src="doc/video.mp4"></video>
+
 ## Features
 
 A. Real-time Dense Mapping via 3D Gaussian Splatting in large-scale unbounded outdoor environments.
