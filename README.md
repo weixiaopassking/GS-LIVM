@@ -1,3 +1,20 @@
+<p align="center">
+
+  <h1 align="center">GS-LIVM: Real-Time Photo-Realistic LiDAR-Inertial-Visual Mapping with Gaussian Splatting</h1>
+
+  <p align="center">
+    <a href="https://github.com/xieyuser/GS-LIVM/tree/main"><img src="https://img.shields.io/badge/-c++-black?logo=c%2B%2B&style=social" /></a>
+    <a href="https://robostack.github.io/index.html"><img src="https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white" /></a>
+    <a href="https://arxiv.org/abs/2410.17084"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
+    <a href="https://github.com/xieyuser/GS-LIVM/tree/main/LICENSE"><img src="https://img.shields.io/badge/License-GPLv2-blue.svg?style=flat-square" /></a>
+  </p>
+  <h3 align="center"><a href="https://arxiv.org/abs/2410.17084">Paper</a> | <a href="https://www.youtube.com/watch?v=bVkwWXFCbVsE">Video</a> | <a href="https://www.youtube.com/watch?v=acTHQIK4QIs">Guideline</a> | <a href="https://www.bilibili.com/video/BV1JeSKYUEFp/?vd_source=0211af3bb655d5627b96e8718e3af59f">Bilibili</a> </h3>
+  <div align="center"></div>
+</p>
+
+
+
+
 # GS-LIVM: Real-Time Photo-Realistic LiDAR-Inertial-Visual Mapping with Gaussian Splatting
 
 [Paper](https://arxiv.org/pdf/2410.17084)
