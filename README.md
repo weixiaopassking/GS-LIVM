@@ -4,7 +4,7 @@
 
   <p align="center">
     <a href="https://github.com/xieyuser/GS-LIVM/tree/main"><img src="https://img.shields.io/badge/-c++-black?logo=c%2B%2B&style=social" /></a>
-    <a href="https://robostack.github.io/index.html"><img src="https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white" /></a>
+    <a href="https://robostack.github.io/index.html"><img src="https://img.shields.io/ros/v/noetic/vision_msgs" /></a>
     <a href="https://arxiv.org/abs/2410.17084"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
     <a href="https://github.com/xieyuser/GS-LIVM/tree/main/LICENSE"><img src="https://img.shields.io/badge/License-GPLv2-blue.svg?style=flat-square" /></a>
   </p>
@@ -17,9 +17,9 @@
 
 # GS-LIVM: Real-Time Photo-Realistic LiDAR-Inertial-Visual Mapping with Gaussian Splatting
 
-[Paper](https://arxiv.org/pdf/2410.17084)
+<!-- [Paper](https://arxiv.org/pdf/2410.17084)
 
-[Bilibili](https://www.bilibili.com/video/BV1JeSKYUEFp/?vd_source=0211af3bb655d5627b96e8718e3af59f)
+[Bilibili](https://www.bilibili.com/video/BV1JeSKYUEFp/?vd_source=0211af3bb655d5627b96e8718e3af59f) -->
 
 <div align="center">
 <a href="https://www.youtube.com/watch?v=bVkwWXFCbVsE" target="_blank"><img src="./doc/demo.png" alt="video" width="100%" /></a>
