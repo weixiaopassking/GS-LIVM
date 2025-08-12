@@ -17,8 +17,10 @@ odometry_options:
     init_num_frames: 20
     min_distance_points: 0.15 # 0.15 0.01
     distance_error_threshold: 100.0 # The motion of the sensor between two frames which is considered erroneous (stops the odometry)
-    motion_compensation: IMU # The profile of the motion compensation (IMU, CONSTANT_VELOCITY)
-    initialization: INIT_IMU # [INIT_IMU, INIT_CONSTANT_VELOCITY]
+    motion_compensation: CONSTANT_VELOCITY # The profile of the motion compensation (IMU, CONSTANT_VELOCITY)
+    initialization: INIT_CONSTANT_VELOCITY # [INIT_IMU, INIT_CONSTANT_VELOCITY]
+    # motion_compensation: IMU # The profile of the motion compensation (IMU, CONSTANT_VELOCITY)
+    # initialization: INIT_IMU # [INIT_IMU, INIT_CONSTANT_VELOCITY]
 
 icp_options:
     size_voxel_map: 1.0 # 1.0 0.1 The voxel size of in the voxel map
@@ -50,12 +52,10 @@ map_options:
     max_delta_degree: 0.03
 
 gs:
-    scale_factor: 2.0
+    scale_factor: 3.0
     position_lr_init: 0.0005
     position_lr_final: 0.0005
-    position_lr_delay_mult: 0.01
-    position_lr_max_steps: 1000
-    feature_lr: 0.0025
+    feature_lr: 0.001
     percent_dense: 0.01
     opacity_lr: 0.025
     scaling_lr: 0.0025
@@ -63,14 +63,6 @@ gs:
     lambda_dssim: 0.2
     lambda_depth_simi: 0.2
     lambda_delta_depth_simi: 0.2
-    min_opacity: 0.005
-    densification_interval: 100
-    opacity_reset_interval: 3000
-    densify_from_iter: 500
-    densify_until_iter: 15000
-    densify_grad_threshold: 0.0002
-    early_stopping: false
-    convergence_threshold: 0.007
     empty_gpu_cache: true
     empty_iterations: 200
 
@@ -79,7 +71,7 @@ gp3d:
 
     grid: 0.2
     min_points_num_to_gp: 10
-    num_gp_side: 2
+    num_gp_side: 4
     log_time: false
     debug: false
     neighbour_size: 3
@@ -90,6 +82,6 @@ gp3d:
     variance_sensor: 0.05
     kernel_size: 1
 
-    image_sliding_window: 100
+    image_sliding_window: 50
     curr_cam_per_iter: 1
     history_cam_per_iter: 1

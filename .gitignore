@@ -1,7 +1,18 @@
-output/*
 .vscode/settings.json
 
-include/*
-src/*
-
 !.gitignore
+
+doc/video.mp4
+
+# python
+python/calc_det.py
+python/calc_extrinsic.py
+python/cat_image.py
+python/evaluate_no_split.py
+python/extract_image.py
+python/parse_pose.py
+python/parse_to_nerfslam.py
+python/plot_figure.py
+python/see_depth_l1.py
+python/see_image.py
+python/verbose_traj.py

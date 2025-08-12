@@ -7,11 +7,11 @@ if(BUILD_GS)
     set(CMAKE_CUDA_ARCHITECTURES "80;86;90")
   endif()
 
-  project(gslivom LANGUAGES CUDA CXX)
+  project(gslivm LANGUAGES CUDA CXX)
   add_definitions(-DBUILD_GS)
   message(STATUS "will build gaussian")
 else()
-  project(gslivom LANGUAGES CXX)
+  project(gslivm LANGUAGES CXX)
 endif()
 
 set(CMAKE_BUILD_TYPE "Release")
